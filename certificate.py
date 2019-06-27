@@ -35,11 +35,11 @@ has survived the massive tome:
 \t%s
 
 and is now entitled to all privileges thereof, including the right to proceed
-on to learning how to develop Web sites, desktop GUIs, scientific models, and
-assorted Apps, with the possible assistance of follow-up applications books
+on to learning how to develop Web sites, Desktop GUIs, Scientific Models, and
+Assorted Apps, with the possible assistance of follow-up applications books
 such as Programming Python (shameless plug intended).
 
---Mark Lutz, Instructor
+--Joseph Aeron Schilz, Instructor
 
 (Note: certificate void where obtained by skipping ahead.)
 
@@ -79,7 +79,7 @@ tags = ['<i>%s</i>' % htmlscape(line) if line[:1] == '\t'
             else line for line in tags]
 tags = '\n'.join(tags)
 
-link = '<i><a href="http://learning-python.com/books">Book support site</a></i>\n'
+link = '<i><a href="https://www.pce.uw.edu/certificates/python-programming">CERTIFICATE IN PYTHON PROGRAMMING</a></i>\n'
 foot = '<table>\n<td><img src="ora-lp_3_15.jpg" hspace=5>\n<td>%s</table>\n' % link
 tags = '<html><body bgcolor=beige>' + tags + foot + '</body></html>'
 
