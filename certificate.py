@@ -56,7 +56,7 @@ print()
 date = time.asctime()
 name = input('Enter your name: ').strip() or 'An unknown reader'
 sept = '*' * maxline
-book = 'Learning Python 5th Edition'
+book = 'certificate program in Python programming'
 
 # Make text file version
 file = open(saveto, 'w')
